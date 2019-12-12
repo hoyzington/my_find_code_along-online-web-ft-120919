@@ -3,9 +3,7 @@ require 'pry'
 def my_find(array)
   i = 0
   while i < array.size
-    if yield(array[i])
-      return array[i]
-    end
+    return array[i] if yield(array[i])
     i += 1
   end
 end
