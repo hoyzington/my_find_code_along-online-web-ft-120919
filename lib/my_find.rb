@@ -1,5 +1,5 @@
 require 'pry'
 
-def my_find(collection)
+def my_find(array)
 
 end
